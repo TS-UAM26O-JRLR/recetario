@@ -10,6 +10,8 @@ def mostrar_menu():
 
     if opcion == "1":
         receta_pasta()
+    if opcion == "2":
+	receta_quesadillas()
     else:
         print("Opción no válida. Intenta de nuevo.")
 
